@@ -24,7 +24,7 @@ export default class Bot extends Client {
         
     }
 
-    async loadEvents(config) {
+    async loadEvents() {
         
     }
 }
