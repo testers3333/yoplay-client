@@ -1,3 +1,18 @@
 {
-  "hello": "a"
+    "compilerOptions": {
+        "strict": true,
+        "allowJs": true,
+        "declaration": true,
+        "declarationDir": "./dist/",
+        "declarationMap": true,
+        "module": "CommonJS",
+        "esModuleInterop": true,
+        "moduleDetection": "auto",
+        "moduleResolution": "node",
+        "target": "ES2022",
+        "outDir": "./dist/"
+    },
+    "include": ["src/**/*"],
+    "exclude": ["node_modules"],
+    "compileOnSave": true
 }
